@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: consuming
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: consuming
+  template:
+    metadata:
+      labels:
+        app: consuming
+    spec:
+      containers:
+        - name: consumer
+          image: shivanshudwivedi/consumer
+          ports:
+            - containerPort: 8080
+          env:
+            - name: quoters_base_url
+              value: "http://quoters:8080"
