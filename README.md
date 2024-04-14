@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 - Clone the repository:
 
  ```
-git clone https://github.com/yourusername/ConsumingRest.git
+git clone https://github.com/shivanshudwivedi/ConsumingRest.git
 ```
 
 - Navigate to the project directory:
@@ -98,10 +98,10 @@ To contribute to ConsumingRest, follow these steps:
     Alternatively, see the GitHub documentation oncreating a pull request.
 
 # Contact
-If you want to contact me, you can reach me at<your_email@example.com>.
+If you want to contact me, you can reach me at shivanshu.dwivedi@trincoll.edu.
 
 # License
-This project uses theMIT License.
+This project uses th MIT License.
 
 
 
