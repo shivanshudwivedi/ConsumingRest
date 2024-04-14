@@ -51,7 +51,7 @@ docker build -t yourusername/consumingrest .
 - Run the Docker container:
 
 ````
-docker run -p 8081:8081 yourusername/consumingrest
+docker run -p 8080:8080 yourusername/consumingrest
 ````
 
 The application will now be accessible at http://localhost:8080. Ensure that the Quoters service is accessible to the Docker container, either by running it locally on Docker or by adjusting the network settings.
